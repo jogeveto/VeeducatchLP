@@ -8,7 +8,7 @@
       <div class="col-lg-8 mx-auto">
         <h4 class="text-secondary text-uppercase mb-0">Acceso rápido a los proyectos publicos de su comunidad</h4>
         <hr class="star-dark mb-5">
-        <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
+        <%= image_tag "portfolio/cabin.png", class:"img-fluid mb-5" %>
         <p class="mb-5">Podrá acceder de una manera rápida e intuitiva a los proyectos que ud quiera, para revisar presupuesto, tiempos de ejecución, contratista, interventor, entre otros.</p>
         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
           <i class="fa fa-close"></i>
@@ -30,7 +30,7 @@
       <div class="col-lg-8 mx-auto">
         <h2 class="text-secondary text-uppercase mb-0">Seguimiento constante</h2>
         <hr class="star-dark mb-5">
-        <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
+        <%= image_tag "portfolio/cake.png", class:"img-fluid mb-5" %>
         <p class="mb-5">Lo más importante, es que cualquier ciudadano podrá ingresar sin ningún tipo de restricción, comentar, compartir en redes sociales, subir imagenes y evidencias del progreso del proyecto para que los demas ciudadanos tengan la misma información del avance del proyecto.</p>
         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
           <i class="fa fa-close"></i>
@@ -52,7 +52,7 @@
       <div class="col-lg-8 mx-auto">
         <h2 class="text-secondary text-uppercase mb-0">Exprésese con tranquilidad</h2>
         <hr class="star-dark mb-5">
-        <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
+        <%= image_tag "portfolio/circus.png", class:"img-fluid mb-5" %>
         <p class="mb-5">Si esta muy satisfecho con la obra, demuestrelo y hagamos conocer esas empresas contratistas serias que realmente realizan trabajos con calidad o si por el contrario el incumplimiento es notorio, hagamoslo saber para evitar que sigan haciendo daño al bolsillo de la ciudadanía.</p>
         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
           <i class="fa fa-close"></i>
@@ -74,7 +74,7 @@
       <div class="col-lg-8 mx-auto">
         <h2 class="text-secondary text-uppercase mb-0">Cree su propia red de contactos</h2>
         <hr class="star-dark mb-5">
-        <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
+        <%= image_tag "portfolio/game.png", class:"img-fluid mb-5" %>
         <p class="mb-5">Agregue contactos y comparta dudas e inquitudes, hay muchas personas de la comunidad que requieren atención sobre dudas, inquietudes o sugerencias. Una gran red de contactos es como un cerebro unificado de apoyo y conocimiento.</p>
         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
           <i class="fa fa-close"></i>
@@ -96,7 +96,7 @@
       <div class="col-lg-8 mx-auto">
         <h2 class="text-secondary text-uppercase mb-0">Ayudemos a la economía de la nación</h2>
         <hr class="star-dark mb-5">
-        <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+        <%= image_tag "portfolio/safe.png", class:"img-fluid mb-5" %>
         <p class="mb-5">Si ayudamos a difundir las grandes obras y damos a conocer esos contratistas serios, no habrá despilfarro de dineros públicos y el país avanzará hacia un mejor futuro.</p>
         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
           <i class="fa fa-close"></i>
@@ -118,7 +118,7 @@
       <div class="col-lg-8 mx-auto">
         <h2 class="text-secondary text-uppercase mb-0">Hagamos cultura ciudadana</h2>
         <hr class="star-dark mb-5">
-        <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+        <%= image_tag "portfolio/submarine.png", class:"img-fluid mb-5" %>
         <p class="mb-5">Está en nuestras manos poner nuestro granito de arena para impulsar a las personas a ser un actor activo de las veedurias ciudadanas. No hay que olvidar que el dinero de esas obras sale del bolsillo de todos.</p>
         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
           <i class="fa fa-close"></i>
@@ -129,8 +129,20 @@
 </div>
 </div>
 
-
 <!-- Portfolio Grid Section -->
+
+<header class="masthead bg-primary text-white text-center">
+<div class="container">
+        <%= image_tag "profile.png", class:"img-fluid mb-5 d-block mx-auto" %>
+  <h1 class="text-uppercase mb-0">VeeduCatch</h1>
+  <hr class="star-light">
+  <h2 class="font-weight-light mb-0">
+    Conozca las obras de su comunidad - Sea ud un veedor de los recursos públicos.
+    <br>Sea parte del cambio.
+  </h2>
+</div>
+</header>
+
 <section class="portfolio" id="portfolio">
   <div class="container">
     <h2 class="text-center text-uppercase text-secondary mb-0">Funciones</h2>
@@ -143,7 +155,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+        <%= image_tag "portfolio/cabin.png", class:"img-fluid mb-5" %>
         </a>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -153,7 +165,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+        <%= image_tag "portfolio/cake.png", class:"img-fluid" %>
         </a>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -163,7 +175,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+        <%= image_tag "portfolio/circus.png", class:"img-fluid" %>
         </a>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -173,7 +185,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="img/portfolio/game.png" alt="">
+        <%= image_tag "portfolio/game.png", class:"img-fluid" %>
         </a>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -183,7 +195,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+        <%= image_tag "portfolio/safe.png", class:"img-fluid" %>
         </a>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -193,7 +205,7 @@
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+        <%= image_tag "portfolio/submarine.png", class:"img-fluid" %>
         </a>
       </div>
     </div>
